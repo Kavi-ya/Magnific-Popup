@@ -735,7 +735,7 @@ MagnificPopup.prototype = {
 					if( $.contains(document, target) ) {
 						return true;
 					}
-				}
+				} 
 			} else if(closeOnContent) {
 				return true;
 			}
